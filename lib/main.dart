@@ -3,14 +3,9 @@ import 'package:zigy/screen/home_screen.dart';
 
 void main() => runApp(const ZigyApp());
 
-class ZigyApp extends StatefulWidget {
+class ZigyApp extends StatelessWidget {
   const ZigyApp({super.key});
 
-  @override
-  State<ZigyApp> createState() => _ZigyAppState();
-}
-
-class _ZigyAppState extends State<ZigyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
