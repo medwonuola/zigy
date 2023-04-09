@@ -1,16 +1,11 @@
-# zigy
-
-A new Flutter project.
+# Flutter API Demo
+This is a Flutter app that fetches and displays user data from an API. The app includes pagination and animated page transitions.
 
 ## Getting Started
+To run the app, clone the repository and run flutter run in the project directory.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+Fetches user data from an API using http package.
+Displays user data in a ListView.
+Implements pagination with TextButton.
+The app uses the ReqRes API to fetch user data.
